@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+  background-image: url('fondo.jpg'); /* URL de tu imagen de fondo */
+  background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8); /* Añade un fondo blanco con transparencia */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  backdrop-filter: blur(10px); /* Efecto de desenfoque */
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"],
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+}
+
+button.btn-primary {
+  background-color: #6a1b9a; /* Color púrpura para el botón */
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button.btn-primary:hover {
+  background-color: #4a148c; /* Oscurecer el color en hover */
+}
+
